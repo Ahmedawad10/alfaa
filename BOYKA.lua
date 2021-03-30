@@ -2583,7 +2583,7 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = 'مـطـوريـن الـسـورس',url="t.me/USER_ALFA"}},
-{{text = 'قـنـاة الـسـورس, url="t.me/so_alfaa"}},
+{{text = 'قـنـاة الـسـورس' url="t.me/so_alfaa"}},
 {{text = 'تـواصـل الـسـورس', url="t.me/TW_AHMEED_BOT"}},
 }
 local msg_id = msg.id_/2097152/0.5
