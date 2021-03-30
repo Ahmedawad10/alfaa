@@ -35,5 +35,5 @@ sudo chmod +x tg
 lua BOYKA.lua
 sudo chmod +x BOYKA
 sudo chmod +x ./BK
-./BK
+/BK
 fi
