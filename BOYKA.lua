@@ -370,15 +370,7 @@ end
 end
 return var
 end
-if text == 'احمد' or  text == 'ahmed' or  text == 'ماديسون' then
-Text = [[
 
-[ . مبرمج السورس ](t.me/AAHMEED11)
-
-]]
-send(msg.chat_id_, msg.id_,Text)
-return false
-end
 function dl_cb(a,d)
 end
 function getChatId(id)
@@ -10737,7 +10729,7 @@ end
 if text == "نسبه الحب" or text == "نسبه حب" and msg.reply_to_message_id_ ~= 0 and Addictive(msg) then
 if not database:get(bot_id..'Cick:lov'..msg.chat_id_) then
 database:set(bot_id..":"..msg.sender_user_id_..":lov_Bots"..msg.chat_id_,"sendlove")
-Text = 'ارسل اسمك واسم الشخص الثاني،  \n مثال الڤا وجوجل'
+Text = 'ارسل اسمك واسم الشخص الثاني،  \n مثال الڤا واحمد'
 send(msg.chat_id_, msg.id_,Text) 
 end
 end
