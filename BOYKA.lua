@@ -2588,7 +2588,7 @@ end,nil)
 end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' then
 local Text = [[
-اكتب اسم السورس هنا
+𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐒𝐨𝐮𝐬𝐜𝐞 𝐀𝐥𝐟𝐚
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
