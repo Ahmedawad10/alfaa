@@ -1064,7 +1064,7 @@ send(msg.chat_id_, msg.id_,' ♔✒ اصدار سورس الڤا \n ♔✒ ال�
 end
 if text == 'قناه تحديثات البوت ❃' and DevBOYKAW(msg) then 
 database:del(bot_id..'Srt:Bot') 
-send(msg.chat_id_, msg.id_,' ♔✒ [تحديثات البوت](t.me/BOBBW) \n ♔✒ [قناه السورس](t.me/so_alfaa)')
+send(msg.chat_id_, msg.id_,' ♔✒ [تحديثات البوت](t.me/so_alfaa) \n ♔✒ [قناه السورس](t.me/so_alfaa)')
 end
 if text == "ضع اسم للبوت ❃" and DevBOYKAW(msg) then  
 database:setex(bot_id..'Set:Name:Bot'..msg.sender_user_id_,300,true) 
