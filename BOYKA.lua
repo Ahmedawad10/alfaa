@@ -370,7 +370,15 @@ end
 end
 return var
 end
+if text == 'احمد' or  text == 'ahmed' or  text == 'ماديسون' then
+Text = [[
 
+[ . مبرمج السورس ](t.me/AAHMEED11)
+
+]]
+send(msg.chat_id_, msg.id_,Text)
+return false
+end
 function dl_cb(a,d)
 end
 function getChatId(id)
