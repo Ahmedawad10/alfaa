@@ -9720,7 +9720,7 @@ end
 return false
 end
 
-if text == 'منو ضافني' then
+if text == 'منو ضافني' or text == 'مين ضافني' then
 if not database:get(bot_id..'Added:Me'..msg.chat_id_) then
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da and da.status_.ID == "ChatMemberStatusCreator" then
@@ -9735,7 +9735,7 @@ Text = ' ♔✒ الشخص الذي قام باضافتك هو » '..Name
 sendText(msg.chat_id_,Text,msg.id_/2097152/0.5,'md')
 end,nil)
 else
-send(msg.chat_id_, msg.id_,' ♔✒ انت دخلت عبر الرابط لتلح') 
+send(msg.chat_id_, msg.id_,' ♔✒ انت دخلت عبر الرابط') 
 end
 end,nil)
 else
