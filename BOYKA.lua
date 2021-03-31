@@ -10672,8 +10672,8 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username},prom_username,nil
 end 
 end
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-end -- Chat_Type = 'GroupBot' 
-end -- end msg 
+-- end -- Chat_Type = 'GroupBot' 
+-- end -- end msg 
 --------------------------------------------------------------------------------------------------------------
 function tdcli_update_callback(data)  -- clback
 if data.ID == "UpdateChannel" then 
